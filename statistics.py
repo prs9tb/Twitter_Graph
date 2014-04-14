@@ -21,7 +21,7 @@ def cdf_to_textfile(input_list,file_name):
 		cdf_current +=  (float(data_list.count(item))/ len(data_list))
 		tmp = str(round(item,4))+"\t"+str(round(cdf_current,4))
 		cdf_f.write(tmp+"\n")
-	cdf_f.close()	
+	cdf_f.close()
 
 
 def pdf_to_textfile(input_list,file_name):
